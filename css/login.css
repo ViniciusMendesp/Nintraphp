@@ -1,0 +1,149 @@
+html,body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.hero.is-success {
+  background: #f2f7fa;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+input {
+  font-weight: 300;
+}
+p {
+  font-weight: 700;
+}
+.mytextbox {
+  position:absolute;
+  left:80px;
+  width: 400px;
+  }
+  .mymenu {
+   
+    width: 180px;
+    background: #161e5f;
+    color: #fafdfa;
+    }
+
+    h3 {
+      position:center;
+      color: #fffdfd;
+      background: #ccc;
+      padding: 5px;
+      text-align: center;
+  }
+    .myselect {
+      width: 390px;
+      background: #50ad7e;
+      color: #fafdfa;
+      position:center;
+      font-family: 'Open Sans', serif;
+      font-size: 35px;
+      font-weight: 250;
+      text-align: center;
+    }
+
+  .mysalvar {
+    position:absolute;
+    left:80px;
+    width: 180px;
+    background: #161e5f;
+    color: #fafdfa;
+    }
+    .mycancelar {
+      position:absolute;
+      left:290px;
+      width: 180px;
+      background: #161e5f;
+      color: #fafdfa;
+      }
+    
+
+
+
+
+    .switch {
+      left:40px;
+position: relative;
+display: inline-block;
+}
+.switch-input {
+display: none;
+}
+.switch-label {
+display: block;
+width: 48px;
+height: 24px;
+text-indent: -155%;
+clip: rect(0 0 0 0);
+
+user-select: none;
+}
+.switch-label::before,
+.switch-label::after {
+content: "";
+display: block;
+position: absolute;
+cursor: pointer;
+}
+.switch-label::before {
+width: 100%;
+height: 100%;
+background-color: #dedede;
+border-radius: 9999em;
+-webkit-transition: background-color 0.25s ease;
+transition: background-color 0.25s ease;
+}
+.switch-label::after {
+top: 0;
+left: 0;
+width: 24px;
+height: 30px;
+border-radius: 50%;
+background-color: #fff;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+-webkit-transition: left 0.25s ease;
+transition: left 0.25s ease;
+}
+.switch-input:checked + .switch-label::before {
+background-color: #2d79c1;
+}
+.switch-input:checked + .switch-label::after {
+left: 24px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.h_iframe {
+  position: relative;
+}
+
+.h_iframe .ratio {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.h_iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+  
